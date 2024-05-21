@@ -1,4 +1,6 @@
 ## Run a Local LLM from a Jupyter Notebook in VSCode!
+Using : [llama.cpp](https://github.com/ggerganov/llama.cpp) via [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
+
 
 ### Setup Instructions
 
