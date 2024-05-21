@@ -1,0 +1,3 @@
+[submodule "llama.cpp"]
+  path = llama.cpp
+  url = <repository_url>
