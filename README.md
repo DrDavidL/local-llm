@@ -34,27 +34,31 @@ Using : [llama.cpp](https://github.com/ggerganov/llama.cpp) via [llama-cpp-pytho
      pip install -r requirements.txt
      ```
 
-5. **Open/Create a Python File**:
-    Open the IPython notebook provided (`local.ipynb`).
+5. **Open the IPython (Jupyter) notebook**:
+    Open the notebook file (`local.ipynb`).
 
-7. **Select the Python Interpreter**:
+6. **Select the Python Interpreter**:
     Ensure VSCode is using the Python interpreter from your virtual environment. When you try to run a cell you'll be prompted to choose. 
     - Select the interpreter from the `venv` directory (e.g., `./venv/bin/python` for MacOS/Linux or `.\venv\Scripts\python.exe` for Windows).
 
 
-> _If questions:_ [cloning a GitHub repository](https://www.google.com/search?q=cloning+a+GitHub+repository) 🛠 [setting up a Python virtual environment](https://www.google.com/search?q=setting+up+a+Python+virtual+environment)  
-> _More info:_ [VSCode Python tutorial](https://www.google.com/search?q=VSCode+Python+tutorial) 💻 [virtual environments best practices](https://www.google.com/search?q=virtual+environments+best+practices)
+  > _If questions:_ [cloning a GitHub repository](https://www.google.com/search?q=cloning+a+GitHub+repository) 🛠 [setting up a Python virtual environment](https://www.google.com/search?q=setting+up+a+Python+virtual+environment)  
+  > _More info:_ [VSCode Python tutorial](https://www.google.com/search?q=VSCode+Python+tutorial) 💻 [virtual environments best practices](https://www.google.com/search?q=virtual+environments+best+practices)
 
-## Download the LLMs from HuggingFace
+7. **Download one or two LLMs from HuggingFace**
 
-Options that will run on machines that are even a few years old. After you download, replace the paths used in the notebook cells with the paths to the downloaded files.
+Options that will run on machines that are even a few years old. After you download, replace the paths used in the notebook cells with the paths to your own downloaded GGUF formatted files.
 
 - https://huggingface.co/bartowski/Phi-3-mini-4k-instruct-GGUF
 
 - https://huggingface.co/bartowski/Meta-Llama-3-8B-Instruct-GGUF
 
-## Run the Notebook cells 
-Update the path to the match the file locations on your device. Congrats! You're interacting with a new "brain" on your device!
+8. **Run the Notebook cells**
+
+- Open your output file, 'output.md', by right clicking and choosing preview. Move to vertical pain to the right of your notebook. This way you can see the output as it emerges!
+- Run the cells of your notebook.
+
+Congrats! You're interacting with an AI model running locally on your device!
 
 
 
