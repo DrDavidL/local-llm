@@ -58,7 +58,7 @@ sse-starlette==2.1.0
 stack-data==0.6.3
 starlette==0.37.2
 starlette-context==0.3.6
-tornado==6.4
+tornado==6.4.1
 traitlets==5.14.3
 typer==0.12.3
 typing_extensions==4.11.0
